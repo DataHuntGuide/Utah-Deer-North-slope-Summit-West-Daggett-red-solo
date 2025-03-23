@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ea81fd15fcc87212df5f9b80be525ef1 {
+                #map_841c65c238e2ca45b17912d98830ffce {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,16 +39,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_ea81fd15fcc87212df5f9b80be525ef1" ></div>
+            <div class="folium-map" id="map_841c65c238e2ca45b17912d98830ffce" ></div>
         
 </body>
 <script>
     
     
-            var map_ea81fd15fcc87212df5f9b80be525ef1 = L.map(
-                "map_ea81fd15fcc87212df5f9b80be525ef1",
+            var map_841c65c238e2ca45b17912d98830ffce = L.map(
+                "map_841c65c238e2ca45b17912d98830ffce",
                 {
-                    center: [40.857951666666665, -110.23534333333332],
+                    center: [40.85166896551724, -110.16498482758621],
                     crs: L.CRS.EPSG3857,
                     zoom: 9,
                     zoomControl: true,
@@ -60,27 +60,27 @@
 
         
     
-            var tile_layer_90a56bf46530043f0b45736380dbf8aa = L.tileLayer(
+            var tile_layer_62c817390012f6ba557d10358a22f974 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_ea81fd15fcc87212df5f9b80be525ef1);
+            ).addTo(map_841c65c238e2ca45b17912d98830ffce);
         
     
-            var heat_map_2db00eea7cb77924aa782ea6dda2e5ea = L.heatLayer(
-                [[40.8837, -109.5491], [40.7244, -110.81894], [40.76242, -110.76986], [40.75543, -110.76673], [40.7639, -110.77273], [40.75223, -110.7625], [40.88445, -110.37318], [40.8962, -110.35373], [40.86364, -109.79637], [40.87381, -109.52438], [40.88267, -109.54247], [40.8871, -109.55512], [40.88996, -109.45883], [40.89521, -109.46775], [41.04015, -112.27574], [40.94912, -109.62624], [40.84792, -110.31482], [40.88822, -110.35882], [40.8983, -110.35182], [40.81844, -110.39248], [40.8112, -109.46505], [40.99361, -109.61546], [40.83556, -110.01308], [40.80001, -110.4743], [40.81797, -110.46634], [40.80772, -110.46732], [40.84495, -110.45853], [40.87959, -110.44281], [40.89526, -110.41218], [40.89541, -110.41362]],
+            var heat_map_22026657f5e67ed684302a8956e7c619 = L.heatLayer(
+                [[40.8837, -109.5491], [40.7244, -110.81894], [40.76242, -110.76986], [40.75543, -110.76673], [40.7639, -110.77273], [40.75223, -110.7625], [40.88445, -110.37318], [40.8962, -110.35373], [40.86364, -109.79637], [40.87381, -109.52438], [40.88267, -109.54247], [40.8871, -109.55512], [40.88996, -109.45883], [40.89521, -109.46775], [40.94912, -109.62624], [40.84792, -110.31482], [40.88822, -110.35882], [40.8983, -110.35182], [40.81844, -110.39248], [40.8112, -109.46505], [40.99361, -109.61546], [40.83556, -110.01308], [40.80001, -110.4743], [40.81797, -110.46634], [40.80772, -110.46732], [40.84495, -110.45853], [40.87959, -110.44281], [40.89526, -110.41218], [40.89541, -110.41362]],
                 {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 25}
-            ).addTo(map_ea81fd15fcc87212df5f9b80be525ef1);
+            ).addTo(map_841c65c238e2ca45b17912d98830ffce);
         
     
-                var lat_lng_popup_46e1cb07a46c4cc7480a71d6739c5544 = L.popup();
+                var lat_lng_popup_2ee40620646d4bca3d9b6403112dd6c6 = L.popup();
                 function latLngPop(e) {
-                    lat_lng_popup_46e1cb07a46c4cc7480a71d6739c5544
+                    lat_lng_popup_2ee40620646d4bca3d9b6403112dd6c6
                         .setLatLng(e.latlng)
                         .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
                                     "<br>Longitude: " + e.latlng.lng.toFixed(4))
-                        .openOn(map_ea81fd15fcc87212df5f9b80be525ef1);
+                        .openOn(map_841c65c238e2ca45b17912d98830ffce);
                     }
-                map_ea81fd15fcc87212df5f9b80be525ef1.on('click', latLngPop);
+                map_841c65c238e2ca45b17912d98830ffce.on('click', latLngPop);
             
 </script>
 </html>
